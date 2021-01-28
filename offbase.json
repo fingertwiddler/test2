@@ -12,7 +12,7 @@
     "SRC": "/home/src",
     "DEST": "/home/blog",
     "NAME": "Twiddler",
-    "BASE": "https://fingertwiddler.github.io/twiddler/blog/",
+    "BASE": "https://fingertwiddler.github.io/test2/blog/",
     "THEME": {
       "HOME": "/theme/dashboard.hbs",
       "POST": "/theme/post.hbs"
