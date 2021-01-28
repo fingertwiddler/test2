@@ -4,7 +4,7 @@
       "url": "https://github.com/fingertwiddler/app.git"
     },
     "theme": {
-      "url": "https://github.com/fingertwiddler/theme.git"
+      "url": "https://github.com/fingertwiddler/darktheme.git"
     }
   },
   "main": "app",
