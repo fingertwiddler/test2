@@ -11,16 +11,15 @@
     "SRC": "/home/src",
     "DEST": "/home/blog",
     "NAME": "Twiddler",
-    "BASE": "https://fingertwiddler.github.io/test2/blog/",
     "THEME": {
-      "HOME": "/theme/dashboard.hbs",
+      "HOME": "/theme/index.hbs",
       "POST": "/theme/post.hbs"
     },
     "PAGE": {
       "CHUNK": 6
     },
     "FEED": {
-      "BASE": "/",
+      "BASE": "",
       "CHUNK": 10
     }
   },
