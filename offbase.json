@@ -20,5 +20,12 @@
     "PAGE": {
       "CHUNK": 6
     }
+  },
+  "$editable": {
+    "require.app.url": { "label": "App URL" },
+    "require.theme.url": { "label": "Theme URL" },
+    "settings.NAME": { "label": "Blog name" },
+    "settings.BASE": { "label": "Base URL for your site" },
+    "settings.PAGE.CHUNK": { "label": "Items per page", "type": "number" }
   }
 }
