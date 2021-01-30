@@ -5,7 +5,15 @@
     },
     "theme": {
       "url": "https://github.com/fingertwiddler/darktheme.git"
+    },
+    "rss": {
+      "url": "https://github.com/fingertwiddler/rss.git"
     }
+  },
+  "events": {
+    "publish": [
+      "rss"
+    ]
   },
   "settings": {
     "SRC": "/home/src",
