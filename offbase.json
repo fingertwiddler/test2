@@ -13,12 +13,12 @@
       "url": "https://github.com/fingertwiddler/blog.git"
     }
   },
-  "events": {
-    "publish": [
-      "blog", "rss"
-    ]
-  },
   "settings": {
+    "events": {
+      "publish": [
+        "blog", "rss"
+      ]
+    },
     "SRC": "/home/src",
     "DEST": "/home/blog",
     "NAME": "Twiddler",
