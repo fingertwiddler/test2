@@ -8,11 +8,14 @@
     },
     "rss": {
       "url": "https://github.com/fingertwiddler/rss.git"
+    },
+    "blog": {
+      "url": "https://github.com/fingertwiddler/blog.git"
     }
   },
   "events": {
     "publish": [
-      "rss"
+      "blog", "rss"
     ]
   },
   "settings": {
