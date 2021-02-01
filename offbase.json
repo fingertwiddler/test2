@@ -21,10 +21,10 @@
     },
     "SRC": "/home/src",
     "DEST": "/home/blog",
-    "NAME": "Twiddler",
+    "NAME": "Tw",
     "THEME": {
-      "HOME": "/theme/index.hbs",
-      "POST": "/theme/post.hbs"
+      "HOME": "/lib/theme/index.hbs",
+      "POST": "/lib/theme/post.hbs"
     },
     "PAGE": {
       "CHUNK": 6
@@ -35,8 +35,8 @@
     }
   },
   "customize": {
-    "require.app.url": { "label": "App URL" },
-    "require.theme.url": { "label": "Theme URL" },
+    "bin.url": { "label": "App URL" },
+    "lib.theme.url": { "label": "Theme URL" },
     "settings.NAME": { "label": "Blog name" },
     "settings.PAGE.CHUNK": { "label": "Items per page", "type": "number" },
     "settings.FEED.BASE": { "label": "RSS Feed base URL" },
