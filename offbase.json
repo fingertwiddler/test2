@@ -1,8 +1,8 @@
 {
-  "require": {
-    "app": {
-      "url": "https://github.com/fingertwiddler/app.git"
-    },
+  "bin": {
+    "url": "https://github.com/fingertwiddler/app.git"
+  },
+  "lib": {
     "theme": {
       "url": "https://github.com/fingertwiddler/darktheme.git"
     },
@@ -34,7 +34,7 @@
       "CHUNK": 10
     }
   },
-  "$editable": {
+  "customize": {
     "require.app.url": { "label": "App URL" },
     "require.theme.url": { "label": "Theme URL" },
     "settings.NAME": { "label": "Blog name" },
