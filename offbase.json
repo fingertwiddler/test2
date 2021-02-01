@@ -11,6 +11,9 @@
     },
     "blog": {
       "url": "https://github.com/fingertwiddler/blog.git"
+    },
+    "settings": {
+      "url": "https://github.com/fingertwiddler/settings.git"
     }
   },
   "settings": {
