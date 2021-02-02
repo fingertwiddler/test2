@@ -15,11 +15,11 @@
   },
   "modules": {
     "onpublish": [
-      "./plugin/theme/onpublish",
-      "./plugin/rss/onpublish"
+      "/plugin/theme/onpublish",
+      "/plugin/rss/onpublish"
     ],
     "onsave": [
-      "./plugin/theme/onsave"
+      "/plugin/theme/onsave"
     ]
   },
   "settings": {
