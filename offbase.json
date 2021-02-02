@@ -9,19 +9,20 @@
     "rss": {
       "url": "https://github.com/fingertwiddler/rss.git"
     },
-    "blog": {
-      "url": "https://github.com/fingertwiddler/blog.git"
-    },
     "settings": {
       "url": "https://github.com/fingertwiddler/settings.git"
     }
   },
+  "plugins": [
+    "onpublish": [
+      "/lib/theme/onpublish.js",
+      "/lib/rss/onpublish.js"
+    ],
+    "onsave": [
+      "/lib/theme/onsave.js"
+    ]
+  ],
   "settings": {
-    "events": {
-      "publish": [
-        "blog", "rss"
-      ]
-    },
     "SRC": "/home/src",
     "DEST": "/home/blog",
     "NAME": "Tw",
