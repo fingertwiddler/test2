@@ -13,7 +13,7 @@
       "url": "https://github.com/fingertwiddler/settings.git"
     }
   },
-  "plugins": [
+  "plugins": {
     "onpublish": [
       "/lib/theme/onpublish.js",
       "/lib/rss/onpublish.js"
@@ -21,7 +21,7 @@
     "onsave": [
       "/lib/theme/onsave.js"
     ]
-  ],
+  },
   "settings": {
     "SRC": "/home/src",
     "DEST": "/home/blog",
