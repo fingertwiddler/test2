@@ -13,13 +13,13 @@
       "url": "https://github.com/fingertwiddler/settings.git"
     }
   },
-  "plugins": {
+  "modules": {
     "onpublish": [
-      "/lib/theme/onpublish.js",
-      "/lib/rss/onpublish.js"
+      "./plugin/theme/onpublish",
+      "./plugin/rss/onpublish"
     ],
     "onsave": [
-      "/lib/theme/onsave.js"
+      "./plugin/theme/onsave"
     ]
   },
   "settings": {
