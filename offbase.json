@@ -38,15 +38,6 @@
     }
   },
   "customize": [{ 
-    "path": "bin.url",
-    "label": "App URL"
-  }, {
-    "path": "lib.settings.url",
-    "label": "Settings page url"
-  }, {
-    "path": "lib.theme.url",
-    "label": "Theme URL"
-  }, {
     "path": "settings.NAME",
     "label": "Blog name"
   }, {
@@ -59,5 +50,14 @@
   }, {
     "path": "settings.FEED.CHUNK",
     "label": "Number of posts in the RSS feed"
+  }, {
+    "path": "lib.theme.url",
+    "label": "theme component git URL (/lib/theme)"
+  }, {
+    "path": "bin.url",
+    "label": "bin component git URL (/bin)"
+  }, {
+    "path": "lib.settings.url",
+    "label": "settings component git url (/lib/theme)"
   }]
 }
